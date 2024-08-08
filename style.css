@@ -1,0 +1,75 @@
+/* Estilo global */
+body {
+    background-color: #2C2C2C;
+    font-family: 'Roboto', sans-serif;
+    color: #E8E8E8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: #1C1C1C;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 2.5rem;
+    color: #F8F8FF;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Formulário e elementos */
+  label {
+    font-weight: 500;
+    color: #A9A9A9;
+  }
+  
+  .form-control {
+    background-color: #333;
+    color: #E8E8E8;
+    border-radius: 10px;
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color:#F8F8FF;
+    box-shadow: 0 0 8px rgba(0, 191, 255, 0.5);
+  }
+  
+  
+  
+ 
+  
+  /* Texto centralizado */
+  .text-center {
+    text-align: center;
+    margin-top: 20px;
+    color:#F8F8FF;
+  }
+  
+  /* Gráfico */
+  #exchangeChart {
+    margin-top: 30px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
